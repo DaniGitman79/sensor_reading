@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
         Qt::QueuedConnection
     );
 
-    engine.load(QUrl::fromLocalFile("C:/dev/sensor_reading/Main.qml"));
+    engine.loadFromModule("MiniUiBuild", "Main");
 
     if (engine.rootObjects().isEmpty()) {
         qDebug() << "QML konnte nicht geladen werden.";
