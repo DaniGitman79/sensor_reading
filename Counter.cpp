@@ -24,6 +24,8 @@ void Counter::decrement()
 
 void Counter::reset()
 {
-    m_count = 0;
-    emit countChanged();
+    if (m_count != 0) {
+        m_count = 0;
+        emit countChanged();
+    }
 }
