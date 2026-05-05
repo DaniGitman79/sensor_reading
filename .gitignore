@@ -1,0 +1,61 @@
+# =========================
+# Build Ordner
+# =========================
+build/
+build-*/
+
+# =========================
+# CMake
+# =========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# =========================
+# Visual Studio
+# =========================
+*.sln
+*.vcxproj*
+*.filters
+*.user
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# =========================
+# Compiler / Build Artefakte
+# =========================
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+
+# =========================
+# Qt (deploy Zeug)
+# =========================
+qml/
+platforms/
+imageformats/
+iconengines/
+translations/
+tls/
+
+# =========================
+# Qt Autogen / Cache
+# =========================
+*.qrc.depends
+*.qmltypes
+*.aotstats
+*.json.gen
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
